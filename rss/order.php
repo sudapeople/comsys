@@ -20,7 +20,7 @@ if ( $re == 'yes' ) {
     sql_query(" TRUNCATE TABLE {$__TABLE__data} ");
 } // end if.
 
-$url = 'http://comsys.co.kr/rss/scrap.php';
+$url = G5_URL.'/rss/scrap.php';
 $params = array(
     "manual" => "manual",
 );
